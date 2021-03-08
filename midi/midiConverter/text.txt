@@ -1,0 +1,196 @@
+MFile 1 5 96
+MTrk
+TimestampType=Delta
+0 TimeSig 4/4 24 8
+0 Meta TrkEnd
+TrkEnd
+MTrk
+TimestampType=Delta
+0 Tempo 150000
+0 Tempo 150000
+0 Tempo 150000
+0 Meta TrkEnd
+TrkEnd
+MTrk
+TimestampType=Delta
+0 Meta TrkName "Piano"
+0 Par ch=1 c=10 v=64
+0 Par ch=1 c=7 v=101
+0 Pb ch=1 v=8192
+0 Par ch=1 c=101 v=0
+0 Par ch=1 c=100 v=0
+0 Par ch=1 c=6 v=12
+0 Par ch=1 c=10 v=64
+0 Par ch=1 c=7 v=101
+0 Pb ch=1 v=8192
+0 PrCh ch=1 p=0
+0 Par ch=1 c=101 v=0
+0 Par ch=1 c=100 v=0
+0 Par ch=1 c=6 v=12
+0 Par ch=1 c=10 v=64
+0 Par ch=1 c=7 v=101
+0 Pb ch=1 v=8192
+0 PrCh ch=1 p=0
+0 PrCh ch=1 p=0
+0 Par ch=1 c=7 v=101
+0 Par ch=1 c=10 v=64
+0 Par ch=1 c=101 v=0
+0 Par ch=1 c=100 v=0
+0 Par ch=1 c=6 v=12
+0 Par ch=1 c=10 v=64
+0 Par ch=1 c=7 v=101
+0 Pb ch=1 v=8192
+0 PrCh ch=1 p=0
+0 PrCh ch=1 p=0
+0 Par ch=1 c=7 v=101
+0 Par ch=1 c=10 v=64
+1536 Par ch=1 c=101 v=0
+0 Par ch=1 c=100 v=0
+0 Par ch=1 c=6 v=12
+0 Par ch=1 c=10 v=64
+0 Par ch=1 c=7 v=101
+0 Pb ch=1 v=8192
+0 PrCh ch=1 p=0
+1 Par ch=1 c=101 v=0
+0 Par ch=1 c=100 v=0
+0 Par ch=1 c=6 v=12
+0 Par ch=1 c=10 v=64
+0 Par ch=1 c=7 v=101
+0 Pb ch=1 v=8192
+0 PrCh ch=1 p=0
+0 Par ch=1 c=101 v=0
+0 Par ch=1 c=100 v=0
+0 Par ch=1 c=6 v=12
+0 Par ch=1 c=10 v=64
+0 Par ch=1 c=7 v=101
+0 Pb ch=1 v=8192
+0 PrCh ch=1 p=0
+0 Meta TrkEnd
+TrkEnd
+MTrk
+TimestampType=Delta
+0 Meta TrkName "R.H."
+0 Par ch=1 c=10 v=64
+0 Par ch=1 c=7 v=102
+0 Pb ch=1 v=8192
+0 Par ch=1 c=101 v=0
+0 Par ch=1 c=100 v=0
+0 Par ch=1 c=6 v=12
+0 Par ch=1 c=10 v=64
+0 Par ch=1 c=7 v=102
+0 Pb ch=1 v=8192
+0 PrCh ch=1 p=0
+0 Par ch=1 c=101 v=0
+0 Par ch=1 c=100 v=0
+0 Par ch=1 c=6 v=12
+0 Par ch=1 c=10 v=64
+0 Par ch=1 c=7 v=102
+0 Pb ch=1 v=8192
+0 PrCh ch=1 p=0
+0 PrCh ch=1 p=0
+0 Par ch=1 c=7 v=102
+0 Par ch=1 c=10 v=64
+0 Par ch=1 c=101 v=0
+0 Par ch=1 c=100 v=0
+0 Par ch=1 c=6 v=12
+0 Par ch=1 c=10 v=64
+0 Par ch=1 c=7 v=102
+0 Pb ch=1 v=8192
+0 PrCh ch=1 p=0
+0 PrCh ch=1 p=0
+0 Par ch=1 c=7 v=102
+0 Par ch=1 c=10 v=64
+0 On ch=1 n=76 v=71
+98 Off ch=1 n=76 v=0
+0 On ch=1 n=76 v=66
+96 Off ch=1 n=76 v=0
+95 On ch=1 n=76 v=70
+94 Off ch=1 n=76 v=0
+99 On ch=1 n=72 v=70
+96 Off ch=1 n=72 v=0
+0 On ch=1 n=76 v=70
+94 Off ch=1 n=76 v=0
+96 On ch=1 n=79 v=75
+98 Off ch=1 n=79 v=0
+286 On ch=1 n=67 v=60
+145 Off ch=1 n=67 v=64
+239 Par ch=1 c=101 v=0
+0 Par ch=1 c=100 v=0
+0 Par ch=1 c=6 v=12
+0 Par ch=1 c=10 v=64
+0 Par ch=1 c=7 v=102
+0 Pb ch=1 v=8192
+0 PrCh ch=1 p=0
+1 Par ch=1 c=101 v=0
+0 Par ch=1 c=100 v=0
+0 Par ch=1 c=6 v=12
+0 Par ch=1 c=10 v=64
+0 Par ch=1 c=7 v=102
+0 Pb ch=1 v=8192
+0 PrCh ch=1 p=0
+0 Par ch=1 c=101 v=0
+0 Par ch=1 c=100 v=0
+0 Par ch=1 c=6 v=12
+0 Par ch=1 c=10 v=64
+0 Par ch=1 c=7 v=102
+0 Pb ch=1 v=8192
+0 PrCh ch=1 p=0
+0 Meta TrkEnd
+TrkEnd
+MTrk
+TimestampType=Delta
+0 Meta TrkName "L.H."
+0 Par ch=2 c=10 v=64
+0 Par ch=2 c=7 v=102
+0 Pb ch=2 v=8192
+0 Par ch=2 c=101 v=0
+0 Par ch=2 c=100 v=0
+0 Par ch=2 c=6 v=12
+0 Par ch=2 c=10 v=64
+0 Par ch=2 c=7 v=102
+0 Pb ch=2 v=8192
+0 PrCh ch=2 p=0
+0 Par ch=2 c=101 v=0
+0 Par ch=2 c=100 v=0
+0 Par ch=2 c=6 v=12
+0 Par ch=2 c=10 v=64
+0 Par ch=2 c=7 v=102
+0 Pb ch=2 v=8192
+0 PrCh ch=2 p=0
+0 PrCh ch=2 p=0
+0 Par ch=2 c=7 v=102
+0 Par ch=2 c=10 v=64
+0 Par ch=2 c=101 v=0
+0 Par ch=2 c=100 v=0
+0 Par ch=2 c=6 v=12
+0 Par ch=2 c=10 v=64
+0 Par ch=2 c=7 v=102
+0 Pb ch=2 v=8192
+0 PrCh ch=2 p=0
+0 PrCh ch=2 p=0
+0 Par ch=2 c=7 v=102
+0 Par ch=2 c=10 v=64
+1536 Par ch=2 c=101 v=0
+0 Par ch=2 c=100 v=0
+0 Par ch=2 c=6 v=12
+0 Par ch=2 c=10 v=64
+0 Par ch=2 c=7 v=102
+0 Pb ch=2 v=8192
+0 PrCh ch=2 p=0
+1 Par ch=2 c=101 v=0
+0 Par ch=2 c=100 v=0
+0 Par ch=2 c=6 v=12
+0 Par ch=2 c=10 v=64
+0 Par ch=2 c=7 v=102
+0 Pb ch=2 v=8192
+0 PrCh ch=2 p=0
+0 Par ch=2 c=101 v=0
+0 Par ch=2 c=100 v=0
+0 Par ch=2 c=6 v=12
+0 Par ch=2 c=10 v=64
+0 Par ch=2 c=7 v=102
+0 Pb ch=2 v=8192
+0 PrCh ch=2 p=0
+0 Meta TrkEnd
+TrkEnd
+

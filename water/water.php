@@ -57,7 +57,7 @@
 						<p>Mode : <span id="valveMode">--</span></p>
 						
 						<p>Next Spray at : <span id="nextSpray">--</span></p>
-						<img onclick="flip(1)" src="/images/cog.png" width="42" height="42" style="position: absolute; right: 4%; top: 4%">
+						<img onclick="flip(1)" src="/images/cog.png" width="42" height="42" style="cursor: pointer; position: absolute; right: 4%; top: 4%">
 					</div>
 
 					<div>
@@ -70,7 +70,7 @@
 				<!--</div>-->
 				<div class="backface verticalSeparate">
 					<!--BACKFACE-->
-					<img onclick="flip(0)" src="/images/cog.png" width="45" height="45" style="position: absolute; right: 4%; top: 4%">
+					<img onclick="flip(0)" src="/images/cog.png" width="45" height="45" style="cursor: pointer; position: absolute; right: 4%; top: 4%">
 					<h2>Settings</h2>
 					
 					<div>

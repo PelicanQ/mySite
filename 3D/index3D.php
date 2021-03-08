@@ -9,7 +9,9 @@
 		<?php include($_SERVER["DOCUMENT_ROOT"]."/modules/topbar.php"); ?>
 		
 		<div id="welcomeText" class="genericContainer">
-			<p class="header1">3D Graphics</p>
+			<p class="header1">3D Canvas Graphics</p>
+
+			<p>Interact with the blue cubes</p>
 		</div>
 
 		<div id="canvasContainer" class="genericContainer">

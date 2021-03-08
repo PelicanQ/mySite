@@ -1,4 +1,7 @@
 //initialization
+require.config({
+	urlArgs : "bust"+Date.now().toString()
+})
 require(["game", "world", "input", "shapes"], function(game, world, input, shapes){
 	//I save the player state, in localStorage between page reloads
 	const player = game.player;

@@ -383,6 +383,7 @@ define(["functions", "spawnEnemy", "constructors", "config", "preData", "sound",
 					enemies[i].currentDistance = Math.sqrt(Math.pow(Math.abs(enemies[i].x-enemies[i].destination.x), 2)
 					 + Math.pow(Math.abs(enemies[i].y-enemies[i].destination.y), 2));//Pythagoras
 					if(enemies[i].currentDistance > enemies[i].lastDistance){
+						
 						explode(enemies[i], friends, 90);
 						enemies.splice(i, 1);
 						i--;
@@ -399,7 +400,8 @@ define(["functions", "spawnEnemy", "constructors", "config", "preData", "sound",
 				}
 				switch(powerUps[i].thing){
 					case "speed":
-						config.timers.speed = 1900;
+						config.timers.speed = 1400;
+						r.speedUp = true;
 						if(r.xRatio < 5){
 							r.xRatio += 1;
 							r.yRatio += 1;
@@ -411,7 +413,7 @@ define(["functions", "spawnEnemy", "constructors", "config", "preData", "sound",
 						sound.play(sound.shieldUp);
 						break;
 					case "double":
-						config.timers.doubleShot = 1900;
+						config.timers.doubleShot = 1400;
 						sound.play(sound.reload);
 						break;
 					case "blast":
@@ -436,17 +438,20 @@ define(["functions", "spawnEnemy", "constructors", "config", "preData", "sound",
 
 			//Timers
 			for(var i in config.timers){
-				if(config.timers[i] <= 0)
+				config.timers[i] -= 1*config.dt;
+				if(config.timers[i] > 0)
 					continue;
-				if(i === "speed"){
+
+				if(i === "speed" && r.speedUp){
 					r.xRatio = 0.9;
 					r.yRatio = 0.9;
+					r.speedUp = false;
 					sound.play(sound.speedDown);
 				}
 				else if(i === "message"){
-					config.message = "";
+					
 				}
-				config.timers[i] -= 1*config.dt;
+				
 			}
 
 			//Zones: 

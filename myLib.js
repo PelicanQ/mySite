@@ -1,15 +1,17 @@
 function sigmoid(x){
-	return 1/(1+Math.pow(Math.E, -x));
+	return 1/(1+Math.exp(-x));
 }
 function sigmoidPrime(x){
-	return Math.pow(Math.E, -x)/Math.pow(1+Math.pow(Math.E,-x),2)
-
+	return Math.exp(-x)/Math.pow(1+Math.exp(-x),2);
 }
+
+//Copy structure of a multi dimensional array. 
 function copyDeepArray(array, endVal){
 	const clone = [];
 	var iterate = (arr, partOfClone) => {
 		for(var i = 0, iLen = arr.length; i < iLen; i++){
 			if(!Array.isArray(arr[i])){
+				//Endval if a value should be placed instead of original element
 				partOfClone[i] = endVal || arr[i];
 				return;
 			}
@@ -21,6 +23,7 @@ function copyDeepArray(array, endVal){
 	return clone;
 }
 
+//Call a function on elements in a 3D array
 function tripleDeep(arr, callback){
 	for(var i = 0, iLen = arr.length; i < iLen; i++){
 		for(var t = 0, tLen = arr[i].length; t < tLen; t++){

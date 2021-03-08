@@ -39,18 +39,18 @@ var makeDrawingBox = function(c, pixelsPerSide){
 	draw();//Clear canvas
 	c.addEventListener("mousedown", function(event){
 		mouseDown = true;
-		console.log("mouse down");
+		
 		
 	}); 
 	c.addEventListener("mouseup", function(event){
 		mouseDown = false;
 		lastPoint1 = lastPoint2 = undefined;
-		console.log("mouse up");
+		
 	});
 	c.addEventListener("mouseleave" , function(){
 		mouseDown = false;
 		lastPoint1 = lastPoint2 = undefined;
-		console.log("mouse leave");
+		
 		//draw();
 	})
 	//Heres where the magic happens
@@ -130,7 +130,7 @@ var makeDrawingBox = function(c, pixelsPerSide){
 				indX : newX/config.pixelSize(),
 				indY: Math.floor(newY/config.pixelSize())
 			}
-			console.log("dd " + lastCell1.indX);
+			
 			
 			intersectedCellsX.push(Object.assign({},lastCell1));	
 			

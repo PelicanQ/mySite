@@ -9,7 +9,7 @@ define(["shapes", "game", "interactions"], function(shapes, game, interactionNod
 	const timedEvents = [];
 	const interactions = interactionNodes;
 
-	var door = new shapes.Cuboid(0,-120,1800, 500, 200, 50, "#AFA");
+	var door = new shapes.Cuboid(0, -120, 1800, 500, 200, 50, "#AFA");
 	var spinningTower = {
 		blocks: [],
 		rotationSpeed : 0.004
@@ -20,21 +20,25 @@ define(["shapes", "game", "interactions"], function(shapes, game, interactionNod
 	
 	solids.push(
 		//door,
-		new shapes.Cuboid(0, 70,1500, 200, 40,200, "#FFF"),
-		new shapes.Cuboid(0, 70,1900, 200, 40,200, "#CCC"),
-		new shapes.Cuboid(0, 70,2200, 200, 40,200, "#AAA"),
+		new shapes.Cuboid(0, 70, 1500, 200, 40,200, "#FFF"),
+		new shapes.Cuboid(0, 70, 1900, 200, 40,200, "#CCC"),
+		new shapes.Cuboid(0, 70, 2200, 200, 40,200, "#AAA"),
 		//new Cuboid(0, 50, 1300, 150, 100, 20, "#AAF"),
 		new shapes.Cuboid(0, -250, 2600, 400, 50, 400, "#777"),
 		new shapes.Cuboid(-120, 0, 1200, 20, 50, 400, "#888"),
 		new shapes.Cuboid(120, 0, 1200, 20, 50, 400, "#888"),
 		new shapes.Cuboid(-600, -30, 800, 20, 60, 200, "#5CF"),
+		new shapes.Cuboid(-120, 0, 200, 20, 90, 400, "#888"),
+		new shapes.Cuboid(120, 0, 200, 20, 90, 400, "#888"),
+		
 	);
 	
-	worldPath.push({x:-90, y:0, z: 1}, {x: -90, y: 0, z: 700},{x:-600, y:0, z: 700},
-		{x:-600, y:0, z: 900},{x: -90, y: 0, z: 900}, 
-		{x:-90, y:0, z: 5000}, {x:90, y:0, z: 5000}, 
+	worldPath.push(
+		{x: -90, y: 0, z: 1}, {x: -90, y: 0, z: 700},{x:-600, y:0, z: 700},
+		{x: -600, y: 0, z: 900},{x: -90, y: 0, z: 900}, 
+		{x: -90, y: 0, z: 5000}, {x:90, y:0, z: 5000}, 
 		{x: 90, y: 0, z: 900}, {x:600, y:0, z: 900},
-		{x:600, y:0, z: 700},{x: 90, y: 0, z: 700}, 
+		{x: 600, y: 0, z: 700},{x: 90, y: 0, z: 700}, 
 		{x: 90, y: 0, z: 1}, {x:-90, y:0, z: 1}
 	);
 		
