@@ -1,0 +1,72 @@
+.container {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	width: 80%;
+	margin: 50px auto;
+	padding: 50px;
+
+}
+
+#position {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-start; 
+	text-align: left;
+
+	margin: 0;
+	padding: 20px;
+}
+#issHeader {
+	margin-bottom: 50px;
+}
+.line {	
+
+	white-space: nowrap;
+	font-size: 20px;
+	letter-spacing: 1px;
+	margin: 25px 0;
+}
+#apiInfo {
+	
+}
+#lower p {
+	margin: 10px 0 0 0;
+}
+#mapContainer {
+	display: inline-block;
+	vertical-align: top;
+}
+#mapDiv {
+	margin: 0px 0px 0 0;
+	position: relative;
+	text-align: center;
+}
+#map, #preload {
+	width: 600px;
+	height: 600px;
+}
+#preload {
+	position: absolute;
+	opacity: 0;
+}
+#centerSymbol {
+	visibility: hidden;
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	left: 50%;
+	top : 50%;
+	transform: translate(-50%, -50%);
+}
+
+#refresh {
+	vertical-align: middle;
+	width : 27px;
+	height: 27px;
+	margin-left: 8px;
+}
+#refresh[disabled]{
+	background-color: gray;
+}

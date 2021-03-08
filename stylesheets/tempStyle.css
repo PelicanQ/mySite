@@ -1,0 +1,81 @@
+
+button {
+	display: inline-block;
+	width: max-content;
+	margin: 0 auto;
+
+}
+.moduleIcon {
+	position: absolute;
+	top: 4%;
+	left: 4%;
+	width: 40px;
+	height: 40px;
+}
+.dotsSpan {
+	display: inline-block;
+	height: 0;
+	width: 0;
+}
+#sub {
+	font-size: 35px;
+}
+#temperature {
+	/*margin: 100px 0px 100px;*/
+	font-size: 60px;
+	letter-spacing: 5px;
+}
+#sensorStatus {
+	position: relative;
+	white-space: nowrap;
+}
+.infoRow {
+	margin-top: 50px;
+}
+.infoRow > h1 {
+	font-size: 25px; 
+}
+.horizontalCenter {
+	text-align: center;
+	
+}
+.verticalSeparate {
+	display: inline-flex;
+	flex-direction: column;
+	justify-content: space-between;
+	position: relative;
+}
+.verticalSeparate > * {
+	backface-visibility: hidden;
+}
+.infoBox {
+	width: 300px;
+	height: 300px;
+	margin: 5px 20px;
+	padding: 10px 10px 20px;
+	transition: transform 1s;
+	transform-style: preserve-3d;
+}
+
+.frontface, .backface {
+	backface-visibility: hidden;
+	-webkit-backface-visibility: hidden;
+}
+.backface {
+	box-shadow: 0 0 10px 0px var(--C);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	padding: inherit;
+	box-sizing: border-box;
+	transform: rotateY(180deg);
+}
+
+#periodTime, #intervalTime{
+	width: 40px;
+}
+#voltage {
+	font-size: 100px;
+}

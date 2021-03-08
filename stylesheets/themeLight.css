@@ -1,0 +1,11 @@
+body {
+	--A: #000;
+	--B: #333;
+	--shadow: #888;
+	--D: #CCC;
+	--E: #FFF;
+	--common: #FFF;
+	--title: #00dcff;
+	--text: #000;
+	--topBar: unset;
+}

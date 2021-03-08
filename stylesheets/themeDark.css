@@ -1,0 +1,26 @@
+body {
+	--A: #999;
+	--B: #333;
+	--shadow: #999;
+	--D: #222;
+	--E: #333;
+	--common: #666;
+	--title: #00EDED;
+	--text: #EEE;
+	--topBar: #333;
+}
+.lineBreak {
+
+	box-shadow: 0 10px 30px 3px #00EDED;
+}
+#title {
+	font-weight: 600;
+	text-shadow: 0 0 14px var(--title);
+}
+.normal {
+
+    filter: brightness(70%) hue-rotate(0deg) contrast(100%) saturate(150%);
+}
+#themeButton {
+	filter: invert(100%);
+}

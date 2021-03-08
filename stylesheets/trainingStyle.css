@@ -1,0 +1,135 @@
+#topFlex {
+	display: inline-flex;
+	width: 70%;
+	justify-content: space-around;
+	margin: 50px 0 40px;
+}
+#decriptionOfPage {
+	margin-top: 40px;
+	text-align: left;
+
+}
+#textContainer {
+	display: inline-block;
+	padding: 40px 25px;
+	width: 35%;
+}
+#drawingContainer {
+	display: inline-block;
+	width: max-content;
+	text-align: center;
+	padding: 15px;
+}
+#previewDiv {
+	display:inline-block;
+	width: 70%;
+	text-align: left;
+	padding: 30px;
+	/*display: inline-block;*/
+}
+h1 {
+	text-align: center;
+	font-weight: 300;
+	font-size: 50px;
+	letter-spacing: 4px;
+	margin: 20px auto 30px;
+}
+#digitsDiv {
+	display: flex;
+	justify-content: center;
+
+}
+.digitRadioLabel {
+	vertical-align: baseline;
+	text-align: center;
+	margin-right: 15px;
+}
+.digitRadioButton {
+	display: inline-block;
+	vertical-align: baseline;
+	
+	margin-left: 0px;
+	
+}
+.previewCanvas { 
+	margin-right : 5px;
+}
+
+#saveButton {
+	display: inline-block;
+	margin-bottom: 0px;
+}
+.noneSelected {
+	display: inline-block;
+	white-space: nowrap;
+	color: red;
+	width: 0;
+	
+}
+
+#drawingBox { 
+	display: block;
+	margin: 15px auto;
+
+	border: 1px solid #000;
+}
+#cover {
+	position: absolute;
+	top:0;
+	left: 0;
+	width: min-content;
+	height: min-content;
+	background-color: rgba(0,0,0,0.5);
+}
+h2 {
+
+}
+.preview { 
+	min-height: 50px;
+}
+#submitButton {
+	/*font-size: 1.5vw;*/
+	display: block;
+	margin: 0 auto;
+}
+#submitResponse {
+	display: block;
+	text-align: center;
+	position: fixed;
+	opacity: 0;
+	left: 0px ;
+	top: 0px ;
+	width: 100% ;
+	height: 0%;
+	background-color : rgba(0,0,0,0.5);
+	
+	transition: opacity 0.6s;
+}
+#submitResponse > div {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: #AAA;
+	display: inline-block;
+	padding : 5%;
+	border-radius: 10px;
+	width: 45%;
+	overflow: hidden;
+	transition: height 0.6s;
+}
+.fullHeight {
+	height: 50vh;
+}
+.noHeight {
+	height: 0;
+}
+#submitClose {
+	display: block;
+	position: absolute;
+	bottom: 10%;
+	left:50%;
+	transform: translate(-50%);
+	margin: 0 auto;
+	transition: height 1s;
+}

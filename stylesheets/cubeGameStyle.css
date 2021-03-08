@@ -1,0 +1,39 @@
+@font-face{
+	font-family : "t";
+	src : url('/Cube-Game/images/data-latin.ttf');
+}
+#gameCanvasContainer {
+	display: block;
+	position: relative;
+	padding: 0;
+	margin: 0 auto;
+	width: min-content;
+	background-color: unset;
+	border: 1px solid #000;
+}
+
+#c {
+	border: 0;
+	margin: 0;
+	z-index: 1;
+}
+
+#gameBackgroundCanvas {
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin: 0;
+	padding: 0;
+	border: 0px solid #000;
+	opacity: 0.1;
+	z-index: -1;
+}
+#controls {
+	padding: 10px;
+	margin: 10px;
+	display: inline-block;
+}
+#controls p {
+	
+	white-space: pre;
+}

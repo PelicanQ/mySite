@@ -1,0 +1,216 @@
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+/*Overlay message stuff---------------------------------*/
+
+#overlayMessage {
+	position: fixed;
+	top : 0;
+	left: 0;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	z-index: 8;
+
+	opacity: 0;
+	transition: opacity 0.6s;
+}
+#overlayMessage > div {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width : 50%;
+	transform: translate(-50%, -50%);
+	background-color: #AAA;
+	border-radius: 10px;
+	overflow: hidden;
+	transition: height 0.6s;
+	color : #FFF;
+}
+#progressBar {
+	margin: 0 auto 10px;
+	width: 90%;
+	height: 20px;
+	background-color : #DDD;
+	border: 1px solid #000;
+}
+#progressBar div {
+	height: 100%;
+	width: 1%;
+	background-color : #00eaea;
+}
+.fullHeight {
+	height: 50%;
+}
+.noHeight {
+	height: 0%;
+}
+
+/*Titlebar stuff-------------------------------*/ 
+
+#titleBar {
+	display: inline-flex;
+	width: 70%;
+	margin-top: 30px;
+	justify-content: space-around;
+	font-size: 20px;
+	
+	
+}
+
+#networkSelector {
+	vertical-align: middle;
+	margin: 0 2px;
+}
+#saveNetworkButton {
+	
+}
+#deleteButton {
+	box-sizing: content-box;
+	width: 30px;
+	height: 30px;
+	padding: 2px;
+	margin: 0;
+	border: 0;
+}
+#flexDiv {
+	display: inline-flex;
+	flex-wrap: nowrap;
+	justify-content: center;
+	flex-direction: row;
+	align-items: center;
+
+	margin-top: 20px;
+	margin-bottom: 100px;
+	
+}
+#controlPanel, #rightDiv {
+	/*flex-basis: 400px;*/
+
+	width: 500px;
+	height: 500px;
+	box-sizing: border-box;
+	padding: 20px;
+	
+
+}
+
+#controlPanel {
+	display: inline-flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	padding: 20px 50px;
+}
+#controlPanel div {
+	/*margin-bottom: 30px;*/
+}
+#rightDiv {
+	display: inline-flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+}
+#rightDiv p {
+
+}
+#neuralCanvasContainer {
+	
+	padding: 0;
+}
+#neuralCanvas {
+	/*flex-shrink: 0;*/
+	
+	display: inline-block;
+	position: relative;
+	
+	border: 1px solid #000;
+	/*overflow: hidden;*/
+}
+/*Testing box stuff-------------------------------------*/
+
+
+#dataSelectIndex {
+	/*vertical-align: middle;*/
+}
+#dataSelectInput {
+	visibility: hidden;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+
+	transition: height 1s;
+}
+
+/*Control Panel stuff-------------------------------------*/
+
+
+
+#previewCanvas, #customDraw {
+	margin-top: 10px;
+	display: none;
+	border : 1px solid var(--A);
+
+}
+#previewDiv {
+	text-align: center;
+}
+
+
+
+
+
+/*Output box stuff------------------------------------------*/
+#outputDigit {
+	margin-top: 10px;
+	font-size: 100px;
+}
+
+#improvement {
+	margin: 15px;
+	font-size: 20px;
+}
+
+#trainTimes {
+	width: 40px;
+	font-size: 30px;
+}
+
+#allDigits{
+	width: 80%;
+	padding: 7px;
+	margin: 0 auto 50px;
+}
+#allDigits canvas {
+	transition: transform 0.1s;
+	display: inline-block;
+}
+#allDigits canvas:hover {
+	cursor: pointer;
+	transform: scale(1.1);
+}
+.currentTest {
+	outline: 1px solid var(--A);
+}
+
+/*---------*/
+#chartContainer {
+	display: inline-block;
+	width: 70%;
+	padding: 20px;
+
+}
+#costChart {
+	display: inline-block;
+	margin: 0 auto;
+	width: 50px  ;
+	
+}
+.trainingDigitsDiv {
+	text-align: left;
+
+	
+}
