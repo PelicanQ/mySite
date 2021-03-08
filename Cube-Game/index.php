@@ -32,7 +32,7 @@
 	<img id="clouds"style="display: none"  src="images/background.png">
 	<audio id="nukeSound" src="sounds/nuke.mp3" preload="auto"></audio>
 	<audio id="laser" src="sounds/pew.mp3" preload="auto"></audio>
-	<audio id="click" src="sounds/Click.mp3" preload="auto"></audio>
+	<audio id="click" src="sounds/click.mp3" preload="auto"></audio>
 	<audio id="select" src="sounds/select.mp3" preload="auto"></audio>
 	<audio id="shieldup" src="sounds/shieldup.mp3" preload="auto"></audio>
 	<audio id="shielddown" src="sounds/shielddown.mp3" preload="auto"></audio>
