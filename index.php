@@ -36,7 +36,7 @@
 					new Content("./water/water.php", 			 "images/blueThermo.jpg", 		"tempPic", 		"Water and Climate", 		"Remotely water some plants. Room climate"),
 					new Content("./3D/index3D.php", 			 "images/cube.png",	 			"cubePic", 		"Redneck 3D", 	 			"Rudimentary 3D engine. Pong included"),
 					new Content("./midi/midi.php", 				 "images/arduinoSimple.png", 	"arduPic", 		"MIDI to Arduino", 			"Convert a MIDI melody to Arduino code"),
-					new Content("./Cube-game/index.php", 		 "images/square.png", 			"squarePic", 	"Square Game",				"Square Game"),
+					new Content("./Cube-Game/index.php", 		 "images/square.png", 			"squarePic", 	"Square Game",				"Square Game"),
 					new Content("./landerGame/index.php", 		 "./images/brackets.png",	 	"codePic", 		"Lander Game", 				"Very Unfinished"),
 					
 				);
