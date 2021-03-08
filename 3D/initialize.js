@@ -5,7 +5,7 @@ require.config({
 require(["game", "world", "input", "shapes"], function(game, world, input, shapes){
 	//I save the player state, in localStorage between page reloads
 	const player = game.player;
-	game.c.width = window.innerWidth*0.65;
+	game.c.width = window.innerWidth*0.75;
 	game.c.height = game.c.width *9/16;
 		
 	window.addEventListener("beforeunload", function(event) {

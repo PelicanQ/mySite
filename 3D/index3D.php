@@ -15,7 +15,7 @@
 		</div>
 
 		<div id="canvasContainer" class="genericContainer">
-			<canvas id="gameCanvas" width="1500" height="800"></canvas>
+			<canvas id="gameCanvas" width="1600" height="800"></canvas>
 			<div id="clickOverlay">
 				<img src="/images/click.png">
 			</div>
