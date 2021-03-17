@@ -1,7 +1,7 @@
 #canvasContainer {
 	position: relative;
 	display: inline-block;
-	margin-top: 50px;
+	margin-top: 20px;
 }
 #gameCanvas {
 	
@@ -16,7 +16,6 @@
 	margin: 15px;
 }
 #controls p {
-	
 	white-space: pre;
 }
 #clickOverlay {

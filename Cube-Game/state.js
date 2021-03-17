@@ -28,7 +28,7 @@ define(["boxes", "preData", "config", "script", "sound"], function(boxes, preDat
 
 		},
 		modes : function(){
-			boxes.multi.staticy = c.height-150;
+			boxes.multi.staticy = c.height-100;
 			boxes.gabenMode.staticy = boxes.multi.staticy-boxes.multi.Rsize-boxes.multi.margin*2;
 			boxes.modeTwo.staticy = boxes.gabenMode.staticy-boxes.gabenMode.Rsize-boxes.gabenMode.margin*2;
 			boxes.s.staticy = boxes.modeTwo.staticy-boxes.modeTwo.Rsize-boxes.modeTwo.margin*2;

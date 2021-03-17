@@ -19,7 +19,7 @@
 		<p>This was my first JS project. Hence the code is not the prettiest</p>
 	</div>
 	<div id="gameCanvasContainer" class="genericContainer">
-		<canvas id="c" width="1400" height="750" ></canvas>
+		<canvas id="c" width="1200" height="650" ></canvas>
 		<canvas id="gameBackgroundCanvas" width="0" height="0"></canvas>
 	</div>
 	<div id="controls" class="genericContainer">
