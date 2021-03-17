@@ -35,7 +35,7 @@ function updatePosition(delay, callback){
 		$("#mapDiv").prepend($("<img id='preload' src='"+url+"'>"));
 		
 		//Delay helps hide a ripple effect when loading the new map
-		setTimeout(()=>{
+		setTimeout(() => {
 			$("#map").remove();
 			$("#preload")[0].id ="map";
 			$("#long")[0].innerHTML = longitude;
